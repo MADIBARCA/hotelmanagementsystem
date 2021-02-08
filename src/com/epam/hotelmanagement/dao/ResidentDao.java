@@ -19,7 +19,7 @@ public class ResidentDao {
 	
 	private String jdbcURL = "jdbc:mysql://localhost:3306/resdb?useSSL=false";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "krivoguza153";
+	private String jdbcPassword = doHashing("password");
 	private String jdbcDriver = "com.mysql.jdbc.Driver"; //Assigning driver name
 	
 	//SQL Queries to store the variables and store the resident to the database
