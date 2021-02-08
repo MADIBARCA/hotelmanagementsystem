@@ -1,2 +1,0 @@
-# hotelmanagementsystem
-Epam Final Project
